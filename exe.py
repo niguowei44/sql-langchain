@@ -234,3 +234,6 @@ with sr.Microphone() as source:
     audio = r.listen(source, timeout=5, phrase_time_limit=30)
     audio_text = r.recognize_whisper(audio, language="chinese")
 print(audio_text)
+"""
+test
+"""
