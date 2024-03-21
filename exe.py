@@ -227,5 +227,3 @@ summary_message = client.chat.completions.create(
 )
 print(summary_message.choices[0].message.content)
 """
-
-# 我
