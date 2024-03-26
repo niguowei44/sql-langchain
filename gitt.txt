@@ -1,0 +1,19 @@
+去掉原仓库git地址
+ git remote -v 命令查看是否关联到了新的git仓库地址
+
+ git remote rm origin将之前的关联的git地址删除
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/niguowei44/test.git
+git push -u origin main
+
+
+git pull 先拉取在提交
+
+git add .
+git commit -m"提交描述"
+git push -u origin main
